@@ -1,4 +1,10 @@
 {{#each articles}}
 {{title}}
 {{link}}
+
+<form action="/action_page.php">
+ <input type="text" name="FirstName" ><br>
+{{!-- <input type="text" name="LastName"><br> --}}
+<input type="submit" value="Submit">
+</form>
 {{/each }}
